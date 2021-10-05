@@ -20,24 +20,24 @@ If this function is used in conjunction with with [AUTO_PDATE()](\DOME_AUTO_PDAT
 #### Original events:
 ```JSON
 [
-    {"event":"planting", date:"19820226", crid:"MAZ"},
-    {"event":"irrigation", date:"19820304", irop:"IR001", "irval":"13"}
+    {"event":"planting", "date":"19820226", "crid":"MAZ"},
+    {"event":"irrigation", "date":"19820304", "irop":"IR001", "irval":"13"}
 ]
 ```
 #### Output events:
 ```JSON
 [
     [
-        {"event":"planting", date:"19810226", crid:"MAZ"}, 
-        {"event":"irrigation", date:"19820304", irop:"IR001", "irval":"13"}
+        {"event":"planting", "date":"19810226", "crid":"MAZ"}, 
+        {"event":"irrigation", "date":"19820304", "irop":"IR001", "irval":"13"}
     ],
     [
-        {"event":"planting", date:"19820226", crid:"MAZ"}, 
-        {"event":"irrigation", date:"19830304", irop:"IR001", "irval":"13"}
+        {"event":"planting", "date":"19820226", "crid":"MAZ"}, 
+        {"event":"irrigation", "date":"19830304", "irop":"IR001", "irval":"13"}
     ],
     [
-        {"event":"planting", date:"19830226", crid:"MAZ"}, 
-        {"event":"irrigation", date:"19840304", irop:"IR001", "irval":"13"}
+        {"event":"planting", "date":"19830226", "crid":"MAZ"}, 
+        {"event":"irrigation", "date":"19840304", "irop":"IR001", "irval":"13"}
     ]
 ]
 ```
@@ -54,24 +54,24 @@ If this function is used in conjunction with with [AUTO_PDATE()](\DOME_AUTO_PDAT
 #### Original events:
 ```JSON
 [
-    {"event":"planting", date:"19820226", crid:"MAZ"}, 
-    {"event":"irrigation", date:"19820304", irop:"IR001", "irval":"13"}
+    {"event":"planting", "date":"19820226", "crid":"MAZ"}, 
+    {"event":"irrigation", "date":"19820304", "irop":"IR001", "irval":"13"}
 ]
 ```
 #### Output events:
 ```JSON
 [
     [
-        {"event":"planting", date:"19820515", crid:"MAZ"}, 
-        {"event":"irrigation", date:"19820521", irop:"IR001", "irval":"13"}
+        {"event":"planting", "date":"19820515", "crid":"MAZ"}, 
+        {"event":"irrigation", "date":"19820521", "irop":"IR001", "irval":"13"}
         ],
     [
-        {"event":"planting", date:"19830606", crid:"MAZ"}, 
-        {"event":"irrigation", date:"19830612", irop:"IR001", "irval":"13"}
+        {"event":"planting", "date":"19830606", "crid":"MAZ"}, 
+        {"event":"irrigation", "date":"19830612", "irop":"IR001", "irval":"13"}
     ],
     [
-        {"event":"planting", date:"19840526", crid:"MAZ"}, 
-        {"event":"irrigation", date:"19840601", irop:"IR001", "irval":"13"}
+        {"event":"planting", "date":"19840526", "crid":"MAZ"}, 
+        {"event":"irrigation", "date":"19840601", "irop":"IR001", "irval":"13"}
     ]
 ]
 ```
