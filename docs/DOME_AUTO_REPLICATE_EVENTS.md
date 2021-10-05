@@ -45,7 +45,7 @@ If this function is used in conjunction with with [AUTO_PDATE()](\DOME_AUTO_PDAT
  
 ### Example 2:
 #### language!, AUTO_PDATE() and AUTO_REPLICTE_EVENTS() together
-```JSON
+```
 &, REPLACE, EXP_DUR, 3
 &, REPLACE, SC_YEAR, 1982
 &, REPLACE, PDATE, AUTO_PDATE(),0501,0701,25,5
