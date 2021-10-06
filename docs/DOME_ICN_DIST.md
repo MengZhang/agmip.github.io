@@ -61,7 +61,7 @@ If this is a REPLACE operation, then all existing values will be overwritten usi
 If this is a FILL operation, and values for ICNO3 and ICNH4 or ICIN or ICN_TOT already exist, then this function should be modified.
 
 #### FILL functions
-#### If the database contains:
+If the database contains:
 * ICIN
   * Use the existing ICIN and calculate other values in the same way	 	 
 * ICNO3 and ICNH4 arrays	 
