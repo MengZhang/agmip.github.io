@@ -64,7 +64,7 @@ If this function is used in conjunction with with [AUTO_PDATE()](\DOME_AUTO_PDAT
     [
         {"event":"planting", "date":"19820515", "crid":"MAZ"}, 
         {"event":"irrigation", "date":"19820521", "irop":"IR001", "irval":"13"}
-        ],
+    ],
     [
         {"event":"planting", "date":"19830606", "crid":"MAZ"}, 
         {"event":"irrigation", "date":"19830612", "irop":"IR001", "irval":"13"}
